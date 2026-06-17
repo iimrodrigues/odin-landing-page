@@ -28,11 +28,6 @@ img {
     margin: -10px;
 }
 
-.footer {
-    flex: 0;
-    padding: 0px;
-}
-
 /* Hero & footer styles */
 .hero-section, .footer {
     background-color: #1F2937;
@@ -83,6 +78,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    flex: 0;
+    padding: 0px;
 }
 
 /* Product section styles */
@@ -130,7 +128,21 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+
+    padding: 50px 250px;
+}
+
+.quote-section p {
+    color: #1F2937;
+}
+
+.quote-section p em {
+    font-size: 36px;
+    font-weight: 300px;
+
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Opt in section styles */
