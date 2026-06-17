@@ -147,7 +147,40 @@ img {
 
 /* Opt in section styles */
 .opt-in-section {
-    background-color: #3882F6;
+    min-height: 300px;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opt-in-info {
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+    min-width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 16px 108px;
+}
+
+.opt-in-text {
+    color: #F9FAF8;
+    margin: 24px; 
+}
+
+.opt-in-text h5 {
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+.opt-in-text p {
+    color: #F9FAF8;
+    font-size: 14px;
+
+    margin: 0px auto;
 }
