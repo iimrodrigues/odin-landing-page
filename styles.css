@@ -74,9 +74,13 @@ img {
 }
 
 .footer {
+    color: #F9FAF8;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin: -10px;
 }
 
 /* Product section styles */
