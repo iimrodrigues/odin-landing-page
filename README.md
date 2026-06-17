@@ -8,3 +8,5 @@ Concepts that were used:
 - Modifying colour options
 - Modifying links and lists
 - Cascade ordering
+
+<em>All artwork was made by me.</em>
