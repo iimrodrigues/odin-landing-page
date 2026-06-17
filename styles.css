@@ -44,13 +44,17 @@ img {
     align-items: center;
 }
 
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
 .intro {
     margin-top: 32px;
 }
 
-.nav-links {
-    display: flex;
-    gap: 16px;
+.intro button {
+    width: 150px;
 }
 
 .intro-text {
