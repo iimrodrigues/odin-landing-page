@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
 
-    height: 100vh;
+    height: 150vh;
 
     display: flex;
     flex-direction: column;
@@ -22,6 +22,10 @@ img {
     border-radius: 8px;
 }
 
+.hero-section, .product-section, .quote-section, .footer {
+    margin: -10px;
+}
+
 /* Hero & footer styles */
 .hero-section, .footer {
     background-color: #1F2937;
@@ -31,7 +35,6 @@ img {
     flex: 1;
 
     padding: 0px 200px 64px 200px;
-    margin: -10px;
 }
 
 .header, .intro {
@@ -79,8 +82,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin: -10px;
 }
 
 /* Product section styles */
@@ -88,18 +89,41 @@ img {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+    margin: 36px;
+}
+
+.product-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+
+    margin-bottom: 48px;
 }
 
 .product-gallery {
     display: flex;
-    gap: 12px;
+    justify-content: space-between;
+
+    margin-bottom: 48px;
 }
 
 .item {
+    color: #5c5c5d;
+    width: 200px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding: 36px;
+}
+
+.item img {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
 }
 
 /* Quote section styles */
