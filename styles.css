@@ -16,6 +16,8 @@ button {
 
     width: 100px;
     height: 30px;
+
+    margin: 32px 0px;
 }
 
 img {
@@ -37,9 +39,9 @@ img {
     color: #F9FAF8;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 64px;
 }
 
 .intro {
@@ -101,6 +103,7 @@ img {
 
 .product-gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
